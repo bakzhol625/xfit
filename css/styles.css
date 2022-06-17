@@ -259,3 +259,34 @@ border-radius: 50px;}
 .xday, .yday{
   font-size: 50px;
 }
+
+.modal_okno {
+  width: 680px;
+  position: fixed;
+  display: none;
+  left: calc(40vw - 150px);
+  top: 300px;
+  background-color: #CFD8DC;
+  padding: 30px;
+}
+.modal_okno p{
+  text-align: center;
+}
+.modal-img{
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.modal_top{
+  display: flex;
+}
+
+.modal_okno.active{
+  display: block;
+}
+
+.modal_bottom{
+  display: flex;
+  justify-content: space-around;
+}
